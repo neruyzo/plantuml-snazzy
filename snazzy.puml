@@ -1,6 +1,3 @@
-@startuml PlantUML Color Themes - Snazzy
-
-' "Tomorrow night eighties" color theme (see https://github.com/chriskempson/tomorrow-theme)
 !define Background   #282a36
 !define CurrentLine  #2b2f3e
 !define Selection    #52535d
@@ -57,5 +54,3 @@ skinparam interface {
   BorderColor Selection
   FontColor Green
 }
-
-@enduml
