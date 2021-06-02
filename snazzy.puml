@@ -22,7 +22,7 @@ skinparam Arrow {
   FontStyle Bold
 }
 skinparam Default {
-  FontName PragmataPro Liga Mono
+  FontName PragmataPro Mono Liga
   FontColor #f1f1f0
 }
 skinparam package {
