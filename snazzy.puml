@@ -3,6 +3,7 @@ skinparam shadowing false
 skinparam RoundCorner 1
 skinparam ArrowColor f1f1f0
 skinparam FontColor f1f1f0
+skinparam FontName PragmataPro Mono Liga
 skinparam SequenceLifeLineBorderColor f1f1f0
 skinparam SequenceGroupHeaderFontColor f1f1f0
 skinparam SequenceGroupFontColor f1f1f0
