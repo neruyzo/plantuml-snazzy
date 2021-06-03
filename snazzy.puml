@@ -1,56 +1,64 @@
-!define Background   #282a36
-!define CurrentLine  #2b2f3e
-!define Selection    #52535d
-!define Foregound    #f1f1f0
-!define Comment      #676d91
-!define Red          #ff5c57
-!define Orange       #f7ad45
-!define Yellow       #f3f99d
-!define Green        #5af78e
-!define Aqua         #9aedfe
-!define Blue         #57c7ff
-!define Purple       #ff6ac1
+skinparam BackgroundColor 282a36
+skinparam shadowing false
+skinparam RoundCorner 1
+skinparam ArrowColor f1f1f0
+skinparam FontColor f1f1f0
+skinparam SequenceLifeLineBorderColor f1f1f0
+skinparam SequenceGroupHeaderFontColor f1f1f0
+skinparam SequenceGroupFontColor f1f1f0
+skinparam SequenceGroupBorderColor f1f1f0
+skinparam SequenceGroupBorderThickness 1
 
-skinparam Shadowing false
-skinparam backgroundColor #282a36
-skinparam Arrow {
-  Color Foregound
-  FontColor Foregound
-  FontStyle Bold
+skinparam sequenceDivider {
+    BorderColor f1f1f0
+    BorderThickness 1
+    FontColor f1f1f0
 }
-skinparam Default {
-  FontName PragmataPro Mono Liga
-  FontColor #f1f1f0
+
+skinparam participant {
+    BackgroundColor ff5c57
+    BorderColor ff5c57
+    FontColor White
 }
-skinparam package {
-  FontColor Purple
-  BackgroundColor CurrentLine
-  BorderColor Selection
-}
-skinparam node {
-  FontColor Yellow
-  BackgroundColor CurrentLine
-  BorderColor Selection
-}
-skinparam component {
-  BackgroundColor Selection
-  BorderColor Blue
-  FontColor Blue
-  Style uml2
-}
+
 skinparam database {
-  BackgroundColor CurrentLine
-  BorderColor Selection
-  FontColor Orange
+    BackgroundColor 9aedfe
+    BorderColor f1f1f0
+    FontColor f1f1f0
 }
 
-skinparam cloud {
-  BackgroundColor CurrentLine
-  BorderColor Selection
+skinparam entity {
+    BackgroundColor f7ad45
+    BorderColor f1f1f0
+    FontColor f1f1f0
 }
 
-skinparam interface {
-  BackgroundColor CurrentLine
-  BorderColor Selection
-  FontColor Green
+skinparam note {
+    BackgroundColor 5af78e
+    BorderColor 5af78e
+    FontColor f1f1f0
+}
+
+skinparam actor {
+    BackgroundColor f1f1f0
+    BorderColor f1f1f0
+    FontColor f1f1f0
+}
+
+skinparam boundary {
+    BackgroundColor f3f99d
+    BorderColor f1f1f0
+    FontColor f1f1f0
+}
+
+skinparam control {
+    BackgroundColor f3f99d
+    BorderColor f1f1f0
+    FontColor f1f1f0
+}
+
+skinparam collections {
+    BackgroundColor ff5c57
+    BorderColor f1f1f0
+    FontColor f1f1f0
 }
